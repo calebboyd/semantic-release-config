@@ -1,8 +1,8 @@
 {
   "name": "@calebboyd/semantic-release-config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Sharable semantic-release config",
+  "main": ".releaserc.json",
   "scripts": {
     "commitlint": "commitlint -f $(git rev-list --tags --max-count=1) -t $(git log --pretty=%H | head -1)"
   },
@@ -10,7 +10,7 @@
   "author": "Caleb Boyd",
   "license": "MIT",
   "files": [
-    ".releaserc"
+    ".releaserc.json"
   ],
   "dependencies": {
     "@semantic-release/changelog": "^5.0.1",
